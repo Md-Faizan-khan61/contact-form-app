@@ -1,8 +1,4 @@
-# React + Vite
+# Contact Form App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack contact form application built using React for the frontend, Express for the backend, and Mongoose for the database. The app allows users to submit their contact information, which is then stored in a MongoDB database. Form validation is handled using Formik and Yup, and Axios is used for making HTTP requests from the frontend to the backend. The CORS middleware is used to enable cross-origin requests.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
